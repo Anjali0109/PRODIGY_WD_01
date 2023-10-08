@@ -1,0 +1,193 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7d0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+.logo img {
+    width: 50px;
+    height: auto; 
+    margin: 0; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    font-size: 18px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f63;
+}
+
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #f63;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.cta-button:hover {
+    background-color: #b3a700d0;
+}
+.menu {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+
+.menu-item:hover{
+    background-color: #3333338a;
+    color: #fff;
+    transform: scale(1.05); 
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+
+
+.menu h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.menu-item {
+    margin: 20px;
+}
+
+.menu-item img {
+    max-width: 50%;
+
+}
+
+.menu-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.menu-item p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.menu-item .price {
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #f63;
+}
+
+.about {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+}
+
+.contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contact a {
+    display: inline-block;
+    background-color: #f63;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
